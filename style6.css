@@ -1,0 +1,23 @@
+.thank{
+    font-size: 25px;
+    color: rgb(60, 14, 87);
+    width: 350px;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    margin-left: 200px;
+    margin-top: 100px;
+    animation: move1 2s ease 0s infinite alternate;
+    transform: rotate(90deg);
+    text-transform: capitalize;
+}
+@keyframes move1{
+    from{
+        transform: rotate(-35deg);
+    }
+    to{
+        transform: rotate(-145deg);
+    }
+}
+html{
+    background-image: linear-gradient(rgb(226, 195, 200),rgb(218, 167, 176),pink);
+}

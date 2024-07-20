@@ -1,0 +1,36 @@
+#one{
+    font-size: 25px;
+    text-transform: uppercase;  
+    background-color: aqua;
+    width: 450px;
+}
+#two{
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: pink;
+    width: 250px;
+}
+
+.im{
+    height: 80px;
+    width: 80px;
+    /* background-image: url(""); */
+    
+}
+.image{
+    height: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    mix-blend-mode:multiply ;
+}
+.but:hover{
+    background-color: aqua;
+    border: 2px solid black;
+}
+.im{
+    height: 100px;
+    width: 100px;
+}
+body{
+    background-image: linear-gradient(rgb(191, 118, 157),rgb(224, 117, 135),rgb(224, 150, 189),rgb(208, 94, 166));
+}

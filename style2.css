@@ -1,0 +1,27 @@
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+input{
+    background-color: pink;
+}
+input:hover{
+    background-color: aqua;
+    border: 2px solid rgb(166, 166, 15);
+}
+button{
+    margin-top: 0px;
+}
+h4{
+    margin-top: 0px;
+}
+#xyz{
+    border: none;
+    background-color: white;
+}
+#xyz:hover{
+    color: blue;
+}
+html{
+    background-image: linear-gradient(rgb(118, 118, 234),rgb(227, 159, 170),rgb(184, 184, 35),rgb(82, 201, 82)) ;
+}

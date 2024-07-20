@@ -1,0 +1,17 @@
+#heading{
+    text-align: center;
+    text-transform: capitalize;
+}
+.dibba:hover{
+    background-color: aquamarine;
+}
+.dibba{
+    border: 2px solid black;
+}
+h4{
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+html{
+    background-image: linear-gradient(rgb(185, 185, 225),rgb(117, 207, 180),rgb(194, 194, 236));
+}

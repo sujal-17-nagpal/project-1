@@ -1,0 +1,72 @@
+#one{
+    font-size: 20px;
+    color: chartreuse;
+}
+select:hover{
+    background-color: beige;
+    border: 2px solid black;
+}
+select{
+    color:darkmagenta;
+}
+#per{
+    font-size: 25px;
+    color: black;
+    background-color: antiquewhite;
+}
+#but{
+    background-color: palegreen;
+    text-decoration: none;
+}
+.loader{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(233, 233, 10);
+    border-radius: 50%;
+    /* position: relative; */
+    text-align: center;
+    /* border: 10px solid rgb(124, 167, 60);
+    border-top: 10px solid red; */
+    animation: spin 2s ease 0s infinite normal;
+    margin-left: 100px; 
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.but{
+    background-color: transparent;
+    border: none;
+}
+/* #but a{   
+    text-decoration: none;
+} */
+#b{
+    color: red;
+    text-decoration: none;
+}
+.but2{
+    position: relative;
+    right: 39px;
+    top: 20px;
+    transform: rotate(270deg);
+}
+.but3{
+    position: relative;
+    top: 40px;
+    transform: rotate(180deg);
+
+}
+.but4{
+    position: relative;
+    left: 39px;
+    bottom: 20px;
+    transform: rotate(90deg);
+}
+html{
+    background-color: rgb(200, 247, 252);
+}
